@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00bcd4"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+
+    <Button
+        android:id="@+id/btAjax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajax"
+        android:background="#78909c"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop ="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        tools:layout_conversion_absoluteHeight="244dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btRealMadrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Real madrid"
+        android:background="#78909c"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        tools:layout_conversion_absoluteHeight="244dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="244dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btFiorentina"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Fiorentina"
+        android:background="#78909c"
+        tools:layout_conversion_absoluteHeight="244dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="488dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
